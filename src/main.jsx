@@ -14,21 +14,29 @@ import './index.css'
 
 const router = createBrowserRouter([
   {
-    path:".",
-    element: <App/>
+    path:"/MKIB/",
+    element: <App/>,
+    children: [
+      {
+        path: "/MKIB/",
+        element: <App />,
+      },
+
+      {
+        path: "/MKIB/archive",
+        element: <TestArchive />,
+      },
+      {
+        path: "/MKIB/hall-of-Fame",
+        element: <HallOfFame />,
+      },
+      {
+        path: "/MKIB/about",
+        element: <About />,
+      },
+    ]
   },
-  {
-    path: "archive",
-    element: <TestArchive />,
-  },
-  {
-    path: "hall-of-Fame",
-    element: <HallOfFame />,
-  },
-  {
-    path: "about",
-    element: <About />,
-  },
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
