@@ -17,7 +17,7 @@ function TestArchive() {
                         <div className="text-2xl font-bold">Test Archive</div>
                         <div>Special thanks to <b>Tanupat Trakulthongchai</b>, and our advisors Atiratch Laoharenoo and Wasanont Pongsawat for finalizing the problems and solutions.
                         </div>
-                        <div className="mt-2">If you want to contribute to our archive, the preferred way to do this is via our GitHub respository. However, <a href="mailto: thitiwatipst@gmail.com" className='text-decoration-line: underline'>emailing</a> directly to us is welcomed.</div>
+                        <div className="mt-2">If you want to contribute to our archive, the preferred way to do this is via our <a href="https://github.com/CATISNOTSODIUM/MKIB" className='text-decoration-line: underline'>GitHub respository</a>. However, <a href="mailto: thitiwatipst@gmail.com" className='text-decoration-line: underline'>emailing</a> directly to us is welcomed.</div>
                         </div>
                     <div>
                     <hr/>
