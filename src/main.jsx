@@ -16,26 +16,20 @@ const router = createBrowserRouter([
   {
     path:"/MKIB/",
     element: <App/>,
-    children: [
-      {
-        path: "/MKIB/",
-        element: <App />,
-      },
-
-      {
-        path: "/MKIB/archive",
-        element: <TestArchive />,
-      },
-      {
-        path: "/MKIB/hall-of-Fame",
-        element: <HallOfFame />,
-      },
-      {
-        path: "/MKIB/about",
-        element: <About />,
-      },
-    ]
   },
+  {
+    path: "/MKIB/archive",
+    element: <TestArchive />,
+  },
+  {
+    path: "/MKIB/hall-of-Fame",
+    element: <HallOfFame />,
+  },
+  {
+    path: "/MKIB/about",
+    element: <About />,
+  },
+
   
 ]);
 
