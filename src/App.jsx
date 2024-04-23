@@ -5,7 +5,7 @@ function App() {
   //main page
   return (
     <div className="flex flex-col gap-4 min-h-screen justify-center items-center text-primaryBase">
-      <div className="text-4xl"> <img className="h-32" src="/assets/logo/int_bee_logo.png"></img> </div>
+      <div className="text-4xl"> <img className="h-32" src="./public/assets/logo/int_bee_logo.png"></img> </div>
       <div className="text-xl font-bold"> MWIT-KVIS Integration Bee Archive </div>
       <button className="btn-primary  hover:font-semibold"><Link to='/MKIB/hall-of-Fame'>Hall of Fame</Link></button>
       <div className="text-sm">Check out our Integration-Bee hall of Fame.</div>
