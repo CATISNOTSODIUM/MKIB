@@ -28,4 +28,3 @@ displayList.push({
         [QF1, "QF1"], [QF2, "QF2"], [QF3, "QF3"], [QF4, "QF4"], [SF1, "SF1"], [SF2, "SF2"], [GF, "Final"], [f2, "Solution"],
     ],
 })
-
